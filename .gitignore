@@ -1,10 +1,9 @@
 node_modules
 
 /.cache
+/.idea
 /build
-/data
+/api/index.js
 /public/build
-/styles/tailwind.min.css
-.env
-.idea
 /app/tailwind-o.css
+.env
