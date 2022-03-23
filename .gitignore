@@ -7,3 +7,4 @@ node_modules
 /public/build
 /app/tailwind-o.css
 .env
+.DS_Store

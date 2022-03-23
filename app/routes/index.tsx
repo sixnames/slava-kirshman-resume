@@ -1,8 +1,10 @@
-export default function Index() {
+const Index = () => {
   return (
-    <div>
+    <div className='bg-slate-500'>
       <h1>Welcome!</h1>
       <p>My resume will appear here very soon</p>
     </div>
   );
-}
+};
+
+export default Index;
