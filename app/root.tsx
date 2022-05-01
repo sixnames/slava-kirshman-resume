@@ -19,12 +19,12 @@ export const links: LinksFunction = () => {
 
 export default function App() {
   return (
-    <html lang='en'>
+    <html lang='en' className='relative h-full'>
       <head>
         <Meta />
         <Links />
       </head>
-      <body>
+      <body className='relative h-full min-w-[320px]'>
         <Outlet />
         <ScrollRestoration />
         <Scripts />

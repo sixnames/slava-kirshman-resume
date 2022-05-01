@@ -7,3 +7,28 @@
     font-family: 'Helvetica', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
   }
 }
+
+@layer utilities {
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+  }
+  
+  .visually-visible {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: -1px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    clip: unset;
+    white-space: normal;
+  }
+}
