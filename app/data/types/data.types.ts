@@ -1,4 +1,4 @@
 export interface DataBase<DataType> {
-  title: string;
+  title?: string;
   data: DataType[];
 }
